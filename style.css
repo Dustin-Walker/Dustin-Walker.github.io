@@ -20,7 +20,7 @@ header nav {
   font-size: 2em;
 }
 
-article:first-of-type {
+article {
     padding-top: 16vh;
 }
 
