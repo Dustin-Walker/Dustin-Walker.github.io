@@ -1,3 +1,29 @@
-.red-text {
-  color: red;
+header nav a:not(:first-child) {
+  padding-left: 4em;
+}
+
+header {
+  height: 16vh;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 6em;
+}
+
+header nav {
+  font-size: 2em;
+}
+
+article:first-of-type {
+    margin-top: 16vh;
+}
+
+body {
+  font-family: monospace;
 }
