@@ -29,6 +29,21 @@ body {
 }
 
 article > header {
-  text-align: center;
   font-size: 1.5em;
+}
+
+article:nth-child(2) > header {
+  color: red;
+}
+
+article:nth-child(3) > header {
+  color: orange;
+}
+
+article:nth-child(4) > header {
+  color: goldenrod;
+}
+
+article:nth-child(5) > header {
+  color: green;
 }
